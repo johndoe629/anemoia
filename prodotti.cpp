@@ -28,8 +28,8 @@ int main(){
             if(x==y){
                 p = p*A[x][y];
             }
-            cout << endl;
         }
+            cout << endl;
     }
     cout << "Il prodotti di tutti i numeri nelle posizioni diagonali inseriti è " << p << endl;
 }
