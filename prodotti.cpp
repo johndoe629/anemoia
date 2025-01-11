@@ -20,16 +20,21 @@ int main(){
         }
     }
 
-    int p=1;;
+    int p=1;
+    int max=0;
 
     for(x=1; x<=X; x++){
         for(y=1; y<=Y; y++){
             cout << A[x][y] << " ";
             if(x==y){
                 p = p*A[x][y];
+
+                if(A[x][y]>max){
+                    max = A[x][y];
+                }
             }
         }
             cout << endl;
     }
-    cout << "Il prodotti di tutti i numeri nelle posizioni diagonali inseriti è " << p << endl;
+    cout << "Il prodotti di tutti i numeri nelle posizioni diagonali inseriti è " << p << " il numero più alto presente sulla diagonale è " << max << endl;
 }
