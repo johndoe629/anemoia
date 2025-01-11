@@ -1,8 +1,8 @@
 # include <iostream>
 using namespace std;
-// Inserire una variabile x e vedere se è presente all'interno di una matrice.
 
 int main(){
+// Inserire una variabile x e vedere se è presente all'interno di una matrice.
     int X;
     cout << "Quante colonne ci sono?" << endl;
     cin >> X;
